@@ -1,9 +1,19 @@
 :root {
     --naranja: #f90;
+    --amarillo: rgb(212, 212, 117);
     --gris-oscuro: #27262b;
     --gris-claro: #ccc;
     --blanco: #fff;
     --negro: #000;
+}
+
+
+/*.........reset..........*/
+/*selector universal, selecciona todos los elementos html*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -12,8 +22,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.cabecera 
-
+.cabecera,
 .contenido {
     max-width: 1200px;
     margin-left: auto;
@@ -33,4 +42,37 @@ body {
 
 .contenido {
     background-color: var(--blanco);
+}
+
+/*
+botonera
+*/
+
+.nav {
+    background-color: antiquewhite;
+}
+.nav-lista {
+    background-color: var(--naranja);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    padding-left: 40px;
+}
+
+.nav-form {
+    flex-grow: 1;
+    text-align: right;
+}
+.nav-link {
+    display: block;
+    font-weight: bold;
+    border-right: 1px solid var(--amarillo);
+    /*8 arriba y abajo, 12 a los costados*/
+    padding: 2px 12px;
+    text-decoration: none;
+    color: var(--blanco);
+}
+.nav-link:hover {
+    background-color: cadetblue;
 }
