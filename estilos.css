@@ -81,8 +81,37 @@ botonera
     margin-bottom: 32px;
 }
 
+.producto-title2 {
+    margin-bottom: 0px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.col {
+    
+}
+
+.col-link {
+    text-decoration: none;
+    color: var(--negro);
+    padding-left: 30px;
+    
+}
+
+.col-lista {
+    padding-top: 0px;
+    border-top: #000;
+    
+}
+
+.col-item {
+    padding-top: 13px;
+    border-bottom: dashed var(--negro);
+    
+}
+
 .productos {
-    background-color: pink;
+    background-color: rgb(17, 17, 17);
     margin-bottom: 32px;
     display: grid;
     grid-template-columns: 330px 1fr;
@@ -115,4 +144,44 @@ botonera
 .producto-contenedor p {
     padding-top: 8px;
     font-size: 14px;
+}
+
+/*
+-----------newsletter-----------
+*/
+
+.newsletter {
+    background-image: linear-gradient(
+        var(--blanco) 65%,
+        var(--gris-claro)
+    );
+    margin-bottom: 250px;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid var(--gris-oscuro);
+    border-radius: 4px;
+    padding: 12px 32px;
+
+    display: flex;
+    align-items: center;
+}
+.newsletter-texto {
+    margin-left: 32px;
+}
+
+.newsletter-parrafo2 {
+    margin-left: 32px;
+}
+
+.newsletter-form {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.newsletter-form input[type="submit"] {
+    background: none;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
 }
