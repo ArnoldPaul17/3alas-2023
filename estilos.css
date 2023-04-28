@@ -87,10 +87,6 @@ botonera
     padding-left: 20px;
 }
 
-.col {
-    
-}
-
 .col-link {
     text-decoration: none;
     color: var(--negro);
@@ -111,23 +107,17 @@ botonera
 }
 
 .productos {
-    background-color: rgb(17, 17, 17);
+
     margin-bottom: 32px;
     display: grid;
     grid-template-columns: 330px 1fr;
     gap: 20px;
 }
-.izquierda {
-    background-color: aqua;
-}
+
 .derecha {
-    background-color: lightblue;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-}
-.producto {
-    background-color: chocolate;
 }
 
 .producto-title {
